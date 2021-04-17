@@ -10,76 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Carbohydrates1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vegan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/bcaas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcaas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcaas2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmi.html" beforeDir="false" afterPath="$PROJECT_DIR$/bmi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bulkdig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calorie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calorieCalc.html" beforeDir="false" afterPath="$PROJECT_DIR$/calorieCalc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/casein.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chest.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creatine.html" beforeDir="false" afterPath="$PROJECT_DIR$/creatine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creatine.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/creatine2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digEnz.html" beforeDir="false" afterPath="$PROJECT_DIR$/digEnz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/eaas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/egg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fish oil.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fishoil.html" beforeDir="false" afterPath="$PROJECT_DIR$/fishoil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fishoil2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fritatta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/impactWhey.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/las.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lglut.html" beforeDir="false" afterPath="$PROJECT_DIR$/lglut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lglut.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lift.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lowCal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lowCarb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/malt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maltodex.html" beforeDir="false" afterPath="$PROJECT_DIR$/maltodex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpeaas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mplglut.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpmalt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nonStim.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nutrition.html" beforeDir="false" afterPath="$PROJECT_DIR$/nutrition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nutrition.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oats.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pancake.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peaprotein.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protein.html" beforeDir="false" afterPath="$PROJECT_DIR$/protein.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protein.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proteinsupp.html" beforeDir="false" afterPath="$PROJECT_DIR$/proteinsupp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingCart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoulder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soyprotein.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sup.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sups.html" beforeDir="false" afterPath="$PROJECT_DIR$/sups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/veg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/veggy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weightlift.webp" beforeDir="false" />
-    </list>
+    <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,8 +63,16 @@
       <workItem from="1614799724988" duration="17014000" />
       <workItem from="1615977880903" duration="2027000" />
       <workItem from="1616264436514" duration="562000" />
-      <workItem from="1618688885866" duration="5336000" />
+      <workItem from="1618688885866" duration="5769000" />
     </task>
+    <task id="LOCAL-00001" summary="testing">
+      <created>1618694859939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618694859939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +91,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="170" y="95" key="FileChooserDialogImpl" timestamp="1616264998923">
