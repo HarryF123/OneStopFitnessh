@@ -20,18 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8dbe8b-0de5-4a75-ab62-a1f8c24c4c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/bcaas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/creatine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/digEnz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/eaas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fishoil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lglut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/maltodex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/proteinsupp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/creatine.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/creatine.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Arms.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Arms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Carbohydrates1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Vegan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/arm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bcaas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bcaas2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bmi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bulkdig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/calorie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/calorieCalc.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/calorieCalc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/casein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/core.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/creatine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/creatine2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/eaas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/egg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fish oil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fishoil2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fritatta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/impactWhey.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/keto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/las.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/leg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lglut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lift.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lowCal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lowCarb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/malt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mpeaas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mplglut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mpmalt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/nonStim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/nutrition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/oats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pancake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/peaprotein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/protein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/shoulder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/soyprotein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/veg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/veggy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/weightlift.webp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +103,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Nicolesapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,6 +111,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
