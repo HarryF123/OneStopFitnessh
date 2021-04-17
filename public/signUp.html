@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Freelancer - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+
+
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg bg-secondary  fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="fas fa-dumbbell"></i> Menu</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded "href="index.html" ><i class="fas fa-arrow-left"></i></i> Back</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead bg-primary  text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading mb-0">OneStopFitness</h1>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mb-0">Sign up to access all the benefits OneStopFitness has to offer!</p>
+    </div>
+</header>
+
+<br>
+<div class="container">
+	<div class="row">
+	<div class="col">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+	</div>
+	<div class="col">
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+	</div>
+	</div>
+	
+	<div class="row">
+    <div class="col">
+		<label for="exampleInputFirstName">First Name</label>
+		<input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+		<label for="exampleInputLastName">Last Name</label>
+		<input type="text" class="form-control" placeholder="Last name">
+    </div>
+	<div class="col">
+		<label for="inputState">Gender</label>
+        <select id="inputState" class="form-control">
+			<option selected>Choose...</option>
+			<option>Female</option>
+			<option>Male</option>
+		</select>
+	</div>
+	</div>
+	
+	<br>
+	<div class="row">
+    <div class="col">
+		<label for="exampleInputFirstName">Age (15-80)</label>
+		<input type="text" class="form-control" placeholder="Age" id="exampleInputAge">
+    </div>
+    <div class="col">
+		<label for="inputState">Activity Level</label>
+        <select id="inputState" class="form-control">
+			<option selected>Choose...</option>
+			<option>Sedentary (little or no excercise)</option>
+			<option>Lightly Active (1-3 days excercise per week)</option>
+			<option>Moderately Active (3-5 days excercise per week)</option>
+			<option>Active (6-7 days excercise per week)</option>
+			<option>Very Active (excercise twice a day)</option>
+		</select>
+	</div>
+	<div class="col">
+		<label for="inputState">Goal</label>
+        <select id="inputState" class="form-control">
+			<option selected>Choose...</option>
+			<option>Lose Weight</option>
+			<option>Gain Weight</option>
+			<option>Gain Muscle</option>
+			<option>Maintain Weight</option>
+		</select>
+	</div>
+	</div>
+	
+	
+	<br>
+	<br>
+	<div class="row">
+	<div class="col">
+	<div class="form-check">
+		<input class="form-check-input" type="radio"  name="flexRadioDefault" id="flexRadioDefault1" checked onclick="displayImperial()">
+		<label class="form-check-label" for="flexRadioDefault1">
+		Imperial
+		</label>
+	</div>
+
+	<div class="form-check">
+	  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="displayMetric()">
+	  <label class="form-check-label" for="flexRadioDefault2">
+		Metric
+	  </label>
+	</div>
+	</div>
+</div>
+	
+	
+	
+	<div id="myDiv" >
+	<br>
+	<div class="row">
+			<div class="col">
+				<label for="inputState">Height (feet/inches)</label>
+				<select id="inputState" class="form-control">
+					<option selected>Feet...</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+				</select>
+			</div>
+			<div class="col">
+				<label for="inputState" class="not-visible">Height </label>
+				<select id="inputState" class="form-control">
+					<option selected>Inches...</option>
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+				</select>
+			</div>
+			<div class="col">
+				<label for="exampleInputLastName">Weight (lbs)</label>
+				<input type="text" class="form-control" placeholder="lbs...">
+			</div>
+	</div>
+	</div>
+	
+	<div id="metric" style="display: none">
+	<br>
+	<div class="row">
+			<div class="col">
+				<label for="exampleInputFirstName">Height (cm)</label>
+				<input type="text" class="form-control" placeholder="cm...">
+			</div>
+			<div class="col">
+				<label for="exampleInputLastName">Weight (kg)</label>
+				<input type="text" class="form-control" placeholder="kg...">
+			</div>
+	</div>
+	</div>
+
+</div>
+	
+<br>
+<br>	
+<button onclick="register()" class="btn btn-primary">Create Account</button>
+<div id="age"></div>
+<br>
+<br>	
+
+
+
+<!-- Portfolio Modals-->
+<!-- Portfolio Modal 1-->
+
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Contact form JS-->
+<script src="assets/mail/jqBootstrapValidation.js"></script>
+<script src="assets/mail/contact_me.js"></script>
+<!-- Core theme JS-->
+<script src="javascript/scripts.js"></script>
+
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="/__/firebase/8.3.0/firebase-app.js"></script>
+
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="/__/firebase/8.3.0/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="/__/firebase/8.3.0/firebase-auth.js"></script>
+<script src="/__/firebase/8.3.0/firebase-firestore.js"></script>
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js?useEmulator=true"></script>
+<script src="javascript/register.js"></script>
+<script src="javascript/survey.js"></script>
+</body>
+</html>

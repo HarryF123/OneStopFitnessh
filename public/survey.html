@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Freelancer - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+
+
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg bg-secondary  fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="fas fa-dumbbell"></i> Menu</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded "href="index.html" ><i class="fas fa-arrow-left"></i></i> Back</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead bg-primary  text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Heading-->
+        <h1 class="masthead-heading mb-0">OneStopFitness</h1>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Masthead Subheading-->
+        <p class="masthead-subheading font-weight-light mb-0">Sign up to access all the benefits OneStopFitness has to offer!</p>
+    </div>
+</header>
+
+<div class="container">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <button onclick="register()" class="btn btn-primary">Create Account</button>
+</div>
+
+<div class="makeCentre" >
+    <form class="makeCentre card-columns">
+        <div class="form group">
+            <label for="validationServer02" class="form-label">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="Name" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+
+            <label for="validationServer02" class="form-label">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="Name" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+
+            <label for="validationServerUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Please choose a username.
+                </div>
+
+            <label for="validationServerUsername" class="form-label">Password</label>
+            <div class="input-group has-validation">
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Please choose a valid password.
+                </div>
+            </div>
+
+            <label for="validationServerUsername" class="form-label">Confirm Password</label>
+            <div class="input-group has-validation">
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Passwords do not match.
+                </div>
+            </div>
+        </div>
+        <label for="validationServer04" class="form-label">Goal</label>
+        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Weight Loss</option>
+            <option>Weight Gain</option>
+            <option>Muscle Gain</option>
+            <option>Maintain</option>
+            <option>Improve Nutrition</option>
+        </select>
+        <div id="validationServer04Feedback" class="invalid-feedback">
+            Please select a valid Goal.
+        </div>
+        <label for="validationServer04" class="form-label">Activity level</label>
+        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Very active (exercise 6-7 days p/w)</option>
+            <option>Active (exercise 4-5 days p/w)</option>
+            <option>Unactive</option>
+        </select>
+        <p> add kg/ lbs option</p>
+        <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Weight</label>
+            <input type="password" class="form-control" placeholder="X kg/lbs">
+        </div>
+        <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Age</label>
+            <input type="password" class="form-control" placeholder="X yrs">
+        </div>
+        <label for="validationServer04" class="form-label">Gender</label>
+        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+            <option>Prefer not to say</option>
+        </select>
+        <p>add imperical option</p>
+        <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Height</label>
+            <input type="password" class="form-control" placeholder="X cm">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+            <label class="form-check-label" for="dropdownCheck">
+                Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign up</button>
+
+    </form>
+
+
+<!-- Portfolio Modals-->
+<!-- Portfolio Modal 1-->
+
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Contact form JS-->
+<script src="assets/mail/jqBootstrapValidation.js"></script>
+<script src="assets/mail/contact_me.js"></script>
+<!-- Core theme JS-->
+<script src="javascript/scripts.js"></script>
+</body>
+</html>

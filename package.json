@@ -1,0 +1,10 @@
+{
+  "name": "FitnessApp",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase-functions": "^3.13.2"
+  },
+  "scripts": {
+    "serve": "firebase emulators:start"
+  }
+}

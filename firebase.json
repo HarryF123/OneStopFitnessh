@@ -1,24 +1,27 @@
 {
   "hosting": {
-    "site": "testapp-5ea05",
     "public": "public",
-    "database": {
-      "rules": "database.rules.json"
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "auth": {
+      "port": "9099"
     },
     "firestore": {
-      "rules": "firestore.rules",
-      "indexes": "firestore.indexes.json"
+      "port": 8080
     },
     "hosting": {
-      "public": "public",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
+      "port": 5000
     },
-    "storage": {
-      "rules": "storage.rules"
+    "ui": {
+      "enabled": true
     }
   }
 }
