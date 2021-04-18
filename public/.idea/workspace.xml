@@ -10,22 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="Touching up titles, icons">
+    <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="saving changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/avataaars.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/cabin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/cake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/circus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/game.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/safe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/submarine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bmi.html" beforeDir="false" afterPath="$PROJECT_DIR$/bmi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eaas.html" beforeDir="false" afterPath="$PROJECT_DIR$/eaas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/survey.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/survey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nutrition.html" beforeDir="false" afterPath="$PROJECT_DIR$/nutrition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingCart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sups.html" beforeDir="false" afterPath="$PROJECT_DIR$/sups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +66,7 @@
       <workItem from="1614799724988" duration="17014000" />
       <workItem from="1615977880903" duration="2027000" />
       <workItem from="1616264436514" duration="562000" />
-      <workItem from="1618688885866" duration="11811000" />
+      <workItem from="1618688885866" duration="16157000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1618694859939</created>
@@ -109,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618752326792</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="saving changes">
+      <created>1618753395389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618753395389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,9 +128,14 @@
     <MESSAGE value="Changing titles pt 2" />
     <MESSAGE value="Touching up titles" />
     <MESSAGE value="Touching up titles, icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Touching up titles, icons" />
+    <MESSAGE value="saving changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving changes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1618756655737">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1618756655737" />
     <state x="170" y="95" key="FileChooserDialogImpl" timestamp="1616264998923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -145,10 +144,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618752426231" />
-    <state x="779" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618752429197">
+    <state x="779" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618753369421">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="779" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1618752429197" />
+    <state x="779" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1618753369421" />
     <state x="692" y="50" width="587" height="616" key="find.popup" timestamp="1618752107538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
