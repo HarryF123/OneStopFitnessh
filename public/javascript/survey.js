@@ -33,7 +33,7 @@ xhr.onreadystatechange = function () {
 			var sHTML = "";
 			var data = JSON.parse(xhr.responseText);
 			{
-			sHTML = <p> "Age: " + data.age </p>";
+			sHTML = "<p> Age: " + data.age +"</p>";
 			comments.innerHTML = sHTML;
 			}
 		} else {
