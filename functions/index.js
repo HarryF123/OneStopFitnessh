@@ -45,19 +45,20 @@ exports.regUserData=functions.https.onRequest((request,response)=>{
     });
 });
 
-exports.getUserdata = functions.https.onRequest((request,response)=>{
-    cors(request,response, () => {
+exports.getUserdata = functions.https.onRequest((request,response)=> {
+    cors(request, response, () => {
         let mydata = []
-        return admin.firestore().collection('users').get().then((snapshot) =>{
-            if(snapshot.empty) {
+        return admin.firestore().collection('users').get().then((snapshot) => {
+            if (snapshot.empty) {
                 console.log("No matching user");
                 response.send("No user data");
                 return
             }
             snapshot.forEach(doc => {
                 myData.push(doc.data());
-        });
+            });
             response.send(myData);
+        })
     });
 });
 
