@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="trying functions" />
+    <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="trying functions">
+      <change beforePath="$PROJECT_DIR$/../functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/signUp.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +54,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,7 +69,7 @@
       <workItem from="1614799724988" duration="17014000" />
       <workItem from="1615977880903" duration="2027000" />
       <workItem from="1616264436514" duration="562000" />
-      <workItem from="1618688885866" duration="30688000" />
+      <workItem from="1618688885866" duration="38566000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1618694859939</created>
@@ -135,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618853952997</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="trying functions">
+      <created>1618854484925</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1618854484925</updated>
+    </task>
+    <task id="LOCAL-00012" summary="trying functions">
+      <created>1618854812006</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618854812006</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,5 +206,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="692" y="50" width="587" height="616" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1618765165655" />
+    <state x="608" y="154" key="run.anything.popup" timestamp="1618865411363">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="608" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1618865411363" />
   </component>
 </project>

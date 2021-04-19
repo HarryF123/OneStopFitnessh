@@ -74,15 +74,15 @@
 	<div class="row">
     <div class="col">
 		<label>First Name</label>
-		<input type="text" class="form-control" placeholder="First name">
+		<input type="text" id = "fnameinput" class="form-control" placeholder="First name">
     </div>
     <div class="col">
 		<label>Last Name</label>
-		<input type="text" class="form-control" placeholder="Last name">
+		<input type="text" id = "lnameinput" class="form-control" placeholder="Last name">
     </div>
 	<div class="col">
-		<label for="inputState">Gender</label>
-        <select class="form-control">
+		<label>Gender</label>
+        <select class="form-control" id = "genderselect">
 			<option selected>Choose...</option>
 			<option>Female</option>
 			<option>Male</option>
@@ -94,11 +94,11 @@
 	<div class="row">
     <div class="col">
 		<label>Age (15-80)</label>
-		<input type="text" class="form-control" placeholder="Age" id="exampleInputAge">
+		<input type="text" id = "ageinput" class="form-control" placeholder="Age">
     </div>
     <div class="col">
-		<label for="inputState">Activity Level</label>
-        <select class="form-control">
+		<label>Activity Level</label>
+        <select class="form-control" id = "activityinput">
 			<option selected>Choose...</option>
 			<option>Sedentary (little or no excercise)</option>
 			<option>Lightly Active (1-3 days excercise per week)</option>
@@ -108,8 +108,8 @@
 		</select>
 	</div>
 	<div class="col">
-		<label for="inputState">Goal</label>
-        <select id="inputState" class="form-control">
+		<label>Goal</label>
+        <select id="goalinput" class="form-control">
 			<option selected>Choose...</option>
 			<option>Lose Weight</option>
 			<option>Gain Weight</option>
@@ -146,8 +146,8 @@
 	<br>
 	<div class="row">
 			<div class="col">
-				<label for="inputState">Height (feet/inches)</label>
-				<select class="form-control">
+				<label>Height (feet/inches)</label>
+				<select class="form-control" id = "selectFeet">
 					<option selected>Feet...</option>
 					<option>3</option>
 					<option>4</option>
@@ -158,8 +158,8 @@
 				</select>
 			</div>
 			<div class="col">
-				<label for="inputState" class="not-visible">Height </label>
-				<select class="form-control">
+				<label class="not-visible">Height</label>
+				<select class="form-control" id ="selectInches">
 					<option selected>Inches...</option>
 					<option>0</option>
 					<option>1</option>
@@ -177,7 +177,7 @@
 			</div>
 			<div class="col">
 				<label>Weight (lbs)</label>
-				<input type="text" class="form-control" placeholder="lbs...">
+				<input type="text" class="form-control" id = "weightlbs" placeholder="lbs...">
 			</div>
 	</div>
 	</div>
@@ -187,21 +187,20 @@
 	<div class="row">
 			<div class="col">
 				<label>Height (cm)</label>
-				<input type="text" class="form-control" placeholder="cm...">
+				<input type="text" id = "heightcm" class="form-control" placeholder="cm...">
 			</div>
 			<div class="col">
 				<label>Weight (kg)</label>
-				<input type="text" class="form-control" placeholder="kg...">
+				<input type="text" id = "weightkg" class="form-control" placeholder="kg...">
 			</div>
 	</div>
 	</div>
-
 </div>
 	
 <br>
 <br>	
 <button onclick="register()" class="btn btn-primary">Create Account</button>
-<div id="age"></div>
+
 <br>
 <br>
 
