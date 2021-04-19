@@ -37,7 +37,7 @@ exports.getAge = functions.https.onRequest((request,response)=>{
 	})
 });	
 });*/
-exports.regUserData=functions.https.onRequest((request,response)=>{
+exports.postUserData=functions.https.onRequest((request,response)=>{
     cors(request, response, () => {
         return admin.firestore().collection('users').add(request.body).then(()=>{
             response.send("Saved in the database");
