@@ -10,7 +10,7 @@ admin.initializeApp();
  //functions.logger.info("Hello logs!", {structuredData: true});
 //response.send("Hello from Firebase!");
 //});
-exports.postAge=functions.https.onRequest((request,response)=>{
+/*exports.postAge=functions.https.onRequest((request,response)=>{
 	cors(request, response, () => {
 	return admin.firestore().collection('age').add(request.body).then(()=>{
 		response.send("Saved in the database");
@@ -36,7 +36,30 @@ exports.getAge = functions.https.onRequest((request,response)=>{
 		
 	})
 });	
-});	
+});*/
+exports.regUserData=functions.https.onRequest((request,response)=>{
+    cors(request, response, () => {
+        return admin.firestore().collection('users').add(request.body).then(()=>{
+            response.send("Saved in the database");
+        });
+    });
+});
+
+exports.getUserdata = functions.https.onRequest((request,response)=>{
+    cors(request,response, () => {
+        let mydata = []
+        return admin.firestore().collection('users').get().then((snapshot) =>{
+            if(snapshot.empty) {
+                console.log("No matching user");
+                response.send("No user data");
+                return
+            }
+            snapshot.forEach(doc => {
+                myData.push(doc.data());
+        });
+            response.send(myData);
+    });
+});
 
 exports.authorizedendpoint = functions.https.onRequest((request, response) => {
 cors(request, response, () => {
