@@ -2,6 +2,13 @@ function register() {
     let email = document.getElementById('exampleInputEmail1').value;
     let password = document.getElementById('exampleInputPassword1').value;
 
+    let fname = document.getElementById('fnameinput').value;
+    let lname = document.getElementById('lnameinput').value;
+    let gen = document.getElementById('genderselect').value;
+    let age = document.getElementById('ageinput').value;
+    let activitylvl = document.getElementById('activityselect').value;
+    let aim = document.getElementById('goalselect').value;
+
     firebase.auth().onAuthStateChanged((user) => {
         if (user) {
             // User is signed in, see docs for a list of available properties
@@ -46,14 +53,7 @@ function register() {
         return response.json(); // parses JSON response into native JavaScript objects
     }
 
-    let firstname = document.getElementById('fnameinput').value;
-    let lastname = document.getElementById('lnameinput').value;
-    let sex = document.getElementById('genderselect').value;
-    let age = document.getElementById('ageinput').value;
-    let aim = document.getElementById('goalinput').value;
-    let activitylvl = document.getElementById('activityinput').value;
-
-    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', { fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl })
+    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', { fname: fname, lname: lname, gender: gen, age: age, goal: aim, activity: activitylvl })
         .then(data => {
             console.log(data); // JSON data parsed by `data.json()` call
         });
