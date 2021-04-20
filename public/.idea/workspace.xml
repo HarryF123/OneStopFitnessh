@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="trying to fix function register">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../functions/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +66,7 @@
       <workItem from="1614799724988" duration="17014000" />
       <workItem from="1615977880903" duration="2027000" />
       <workItem from="1616264436514" duration="562000" />
-      <workItem from="1618688885866" duration="46725000" />
+      <workItem from="1618688885866" duration="47060000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1618694859939</created>
@@ -251,10 +251,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1618756655737" />
-    <state x="170" y="95" key="FileChooserDialogImpl" timestamp="1616264998923">
+    <state x="170" y="95" key="FileChooserDialogImpl" timestamp="1618925506395">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="170" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1616264998923" />
+    <state x="170" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618925506395" />
     <state x="0" y="77" key="Vcs.Push.Dialog.v2" timestamp="1618921329087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
