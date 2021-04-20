@@ -53,13 +53,13 @@ function register() {
     let aim = document.getElementById('goalinput').value;
     let activitylvl = document.getElementById('activityinput').value;
 
-    if(displayImperial()){
+    if(document.getElementById('heightcm').value == null && document.getElementById('weightkg').value == null){
         let feet = document.getElementById('selectFeet').value;
         let inches = document.getElementById('selectInches').value;
         let heightdoc = ""+feet+"'"+inches;
         let weightdoc = document.getElementById('weightlbs').value + "lbs";
     }
-    else if(displayMetric()){
+    else if(document.getElementById('selectFeet').value == null && document.getElementById('selectInches').value == null && document.getElementById('weightlbs').value == null){
         let heightdoc = document.getElementById('heightcm').value + "cm";
         let weightdoc = document.getElementById('weightkg').value + "kg";
     }
