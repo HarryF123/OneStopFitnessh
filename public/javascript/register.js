@@ -27,7 +27,8 @@ function register() {
             var errorMessage = error.message;
             console.log(errorMessage, errorCode);
         });
-
+}
+/*
     async function postData(url = '', data = {}) {
         // Default options are marked with *
         const response = await fetch(url, {
@@ -53,10 +54,34 @@ function register() {
     let aim = document.getElementById('goalinput').value;
     let activitylvl = document.getElementById('activityinput').value;
 
-    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', {fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
-        .then(data => {
+postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', {fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
+      .then(data => {
             console.log(data); // JSON data parsed by `data.json()` call
-        });
+});
+*/
+let firstname = document.getElementById('fnameinput').value;
+let lastname = document.getElementById('lnameinput').value;
+let sex = document.getElementById('genderselect').value;
+let age = document.getElementById('ageinput').value;
+let aim = document.getElementById('goalinput').value;
+let activitylvl = document.getElementById('activityinput').value;
+
+function postData(){
+    console.log("Function called!");
+    var xhr = new XMLHttpRequest();
+    console.log(location.hostname)
+    if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+        xhr.open('POST', 'http://localhost:5001/testapp/us-central1/postUserData');
+    }
+    else {
+        xhr.open('POST', 'https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData');
+    }
+
+    xhr.setRequestHeader("Content-type", "application/json");
+    xhr.send(JSON.stringify(
+        {"fname": firstname, "lname": lastname, "age": age,"gender": sex, "goal": aim, "activity": activitylvl}
+    ))
 }
+
 
 
