@@ -55,7 +55,7 @@ function register() {
     let activitylvl = document.getElementById('activityinput').value;
     console.log(location.hostname)
 if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
-    postData('http://localhost:5001/testapp/us-central1/postUserData', {fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
+    postData('http://localhost:5001/testapp-5ea05/us-central1/postUserData', {fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
         .then(data => {
             console.log(data); // JSON data parsed by `data.json()` call
         });

@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78001cb2-d911-419b-b8e4-8a9338bbb15e" name="Default Changelist" comment="trying to fix function register">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +68,7 @@
       <workItem from="1614799724988" duration="17014000" />
       <workItem from="1615977880903" duration="2027000" />
       <workItem from="1616264436514" duration="562000" />
-      <workItem from="1618688885866" duration="50321000" />
+      <workItem from="1618688885866" duration="51018000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1618694859939</created>
@@ -229,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618930982358</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="trying to fix function register">
+      <created>1618931400475</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1618931400475</updated>
+    </task>
+    <task id="LOCAL-00025" summary="trying to fix function register">
+      <created>1618931557629</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1618931557629</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
