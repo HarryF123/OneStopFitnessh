@@ -53,21 +53,11 @@ function register() {
     let age = document.getElementById('ageinput').value;
     let aim = document.getElementById('goalinput').value;
     let activitylvl = document.getElementById('activityinput').value;
-    console.log(location.hostname)
-if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
-    postData('http://localhost:5001/testapp-5ea05/us-central1/postUserData', {fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
-        .then(data => {
-            console.log(data); // JSON data parsed by `data.json()` call
-        });
-}
-else {
+
     postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', {fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
         .then(data => {
             console.log(data); // JSON data parsed by `data.json()` call
         });
-}
-
-
 
 
 
