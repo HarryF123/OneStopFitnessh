@@ -3,9 +3,43 @@ const admin = require('firebase-admin');
 const cors = require('cors')({origin: true});
 
 admin.initializeApp();
+// // Create and Deploy Your First Cloud Functions
+// // https://firebase.google.com/docs/functions/write-firebase-functions
+//
+//exports.helloWorld = functions.https.onRequest((request, response) => {
+ //functions.logger.info("Hello logs!", {structuredData: true});
+//response.send("Hello from Firebase!");
+//});
+/*exports.postAge=functions.https.onRequest((request,response)=>{
+	cors(request, response, () => {
+	return admin.firestore().collection('age').add(request.body).then(()=>{
+		response.send("Saved in the database");
+	});
+	});
+});
+
+exports.getAge = functions.https.onRequest((request,response)=>{
+	cors(request, response, () => {
+	let myData = []
+	return admin.firestore().collection('age').get().then((snapshot)=>{
+		if(snapshot.empty){
+			console.log('No matching documents.');
+			response.send('No data in database');
+			return;
+		}
+
+		snapshot.forEach(doc => {
+			myData.push(doc.data());
+	});
+
+		response.send(myData);
+
+	})
+});
+});*/
 exports.postUserData=functions.https.onRequest((request,response)=>{
     cors(request, response, () => {
-        return admin.firestore().collection("users").add(request.body).then(()=>{
+        return admin.firestore().collection('users').add(request.body).then(()=>{
             response.send("Saved in the database");
         });
     });
