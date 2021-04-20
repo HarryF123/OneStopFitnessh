@@ -5,7 +5,7 @@ const cors = require('cors')({origin: true});
 admin.initializeApp();
 exports.postUserData=functions.https.onRequest((request,response)=>{
     cors(request, response, () => {
-        return admin.firestore().collection('users').add(request.body).then(()=>{
+        return admin.firestore().collection("users").add(request.body).then(()=>{
             response.send("Saved in the database");
         });
     });

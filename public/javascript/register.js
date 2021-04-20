@@ -53,8 +53,7 @@ function register() {
     let aim = document.getElementById('goalinput').value;
     let activitylvl = document.getElementById('activityinput').value;
 
-
-    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', { fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
+    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', { fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl })
         .then(data => {
             console.log(data); // JSON data parsed by `data.json()` call
         });
