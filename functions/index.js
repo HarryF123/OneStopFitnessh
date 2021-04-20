@@ -30,7 +30,7 @@ exports.getUserdata = functions.https.onRequest((request,response)=> {
 });
 
 exports.authorizedendpoint = functions.https.onRequest((request, response) => {
-cors(request, response, () => {
+    cors(request, response, () => {
 
         console.log('Check if request is authorized with Firebase ID token');
         if ((!request.headers.authorization || !request.headers.authorization.startsWith('Bearer '))) {
