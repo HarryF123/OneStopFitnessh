@@ -125,15 +125,15 @@
 	<div class="row">
 	<div class="col">
 	<div class="form-check">
-		<input class="form-check-input" type="radio"  name="flexRadioDefault" id="flexRadioDefault1" checked onclick="displayImperial()">
-		<label class="form-check-label" for="flexRadioDefault1">
+		<input class="form-check-input" type="radio"  name="flexRadioDefault" id="dispImp" checked onclick="displayImperial()">
+		<label class="form-check-label" for="dispImp">
 		Imperial
 		</label>
 	</div>
 
 	<div class="form-check">
-	  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="displayMetric()">
-	  <label class="form-check-label" for="flexRadioDefault2">
+	  <input class="form-check-input" type="radio" name="flexRadioDefault" id="dispMet" onclick="displayMetric()">
+	  <label class="form-check-label" for="dispMet">
 		Metric
 	  </label>
 	</div>
@@ -146,7 +146,7 @@
 	<br>
 	<div class="row">
 			<div class="col">
-				<label>Height (feet/inches)</label>
+				<label>Height (feet)</label>
 				<select class="form-control" id = "selectFeet">
 					<option selected>Feet...</option>
 					<option>3</option>
@@ -158,7 +158,7 @@
 				</select>
 			</div>
 			<div class="col">
-				<label class="not-visible">Height</label>
+				<label>Inches</label>
 				<select class="form-control" id ="selectInches">
 					<option selected>Inches...</option>
 					<option>0</option>

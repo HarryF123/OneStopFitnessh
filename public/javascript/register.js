@@ -53,7 +53,17 @@ function register() {
     let aim = document.getElementById('goalinput').value;
     let activitylvl = document.getElementById('activityinput').value;
 
-    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', { fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl })
+    if(dispImp.onclick){
+        let feet = document.getElementById('selectFeet').value;
+        let inches = document.getElementById('selectInches').value;
+        let heightdoc = ""+feet+"'"+inches;
+        let weightdoc = document.getElementById('weightlbs').value + "lbs";
+    }
+    else if(dispMet){
+        let heightdoc = document.getElementById('heightcm').value + "cm";
+        let weightdoc = document.getElementById('weightkg').value + "kg";
+    }
+    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', { fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl, height: heightdoc, weight: weightdoc})
         .then(data => {
             console.log(data); // JSON data parsed by `data.json()` call
         });
