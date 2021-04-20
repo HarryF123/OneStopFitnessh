@@ -27,7 +27,7 @@ function register() {
             var errorMessage = error.message;
             console.log(errorMessage, errorCode);
         });
-}
+
 
     async function postData(url = '', data = {}) {
         // Default options are marked with *
@@ -47,17 +47,24 @@ function register() {
         return response.json(); // parses JSON response into native JavaScript objects
     }
 
-    let firstname = document.getElementById('fnameinput').value;
+    let firstname = document.getElementById('fnameinput').innerHTML;
     let lastname = document.getElementById('lnameinput').value;
     let sex = document.getElementById('genderselect').value;
     let age = document.getElementById('ageinput').value;
     let aim = document.getElementById('goalinput').value;
     let activitylvl = document.getElementById('activityinput').value;
 
-    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', {fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl})
+    postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', {
+        fname: firstname,
+        lname: lastname,
+        gender: sex,
+        age: age,
+        goal: aim,
+        activity: activitylvl
+    })
         .then(data => {
             console.log(data); // JSON data parsed by `data.json()` call
         });
-
+}
 
 
