@@ -46,12 +46,12 @@ function register() {
         return response.json(); // parses JSON response into native JavaScript objects
     }
 
-    let firstname = document.getElementById('fninput').value;
-    let lastname = document.getElementById('lninput').value;
-    let sex = document.getElementById('gselect').value;
-    let age = document.getElementById('agein').value;
-    let aim = document.getElementById('goalin').value;
-    let activitylvl = document.getElementById('activityin').value;
+    let firstname = document.getElementById('fnameinput').value;
+    let lastname = document.getElementById('lnameinput').value;
+    let sex = document.getElementById('genderselect').value;
+    let age = document.getElementById('ageinput').value;
+    let aim = document.getElementById('goalinput').value;
+    let activitylvl = document.getElementById('activityinput').value;
 
     postData('https://us-central1-testapp-5ea05.cloudfunctions.net/postUserData', { fname: firstname, lname: lastname, gender: sex, age: age, goal: aim, activity: activitylvl })
         .then(data => {
